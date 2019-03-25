@@ -257,3 +257,8 @@ a.social:hover {
     background-image: url(images/sydney-large.jpg);
   }
 }
+
+
+#gallery img {
+  max-width: 100%;
+}
