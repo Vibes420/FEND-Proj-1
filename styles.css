@@ -73,7 +73,6 @@ header {
   background: url('images/sydney-small.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
-  padding-top: 60px;
 }
 header {
   line-height: 1.5;
@@ -191,9 +190,6 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
 a.linkedin {
   background-image: url(images/linkedin.svg);
 }
@@ -256,9 +252,31 @@ a.social:hover {
   header {
     background-image: url(images/sydney-large.jpg);
   }
+  #gallery {
+    width: 70%;
+    margin: 0 auto;
+  }
 }
+
+.marg-clpse {
+  padding-top: 60px;
+  text-align: center;
+}
+
 
 
 #gallery img {
   max-width: 100%;
 }
+
+.item {
+  padding-bottom: 15px;
+}
+.item p, .item h3 {
+  line-height: 1.3;
+  letter-spacing: 1px;
+}
+.heading {
+  padding: 15px 0;
+}
+
